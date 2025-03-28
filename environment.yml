@@ -2,6 +2,7 @@ name: wdcproducts
 channels:
   - pytorch
   - defaults
+  - conda-forge
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=4.5=1_gnu
@@ -94,6 +95,7 @@ dependencies:
   - executing=0.8.3=pyhd3eb1b0_0
   - expat=2.4.4=h295c915_0
   - faiss-gpu=1.7.2=py3.8_h28a55e0_0_cuda11.3
+  - fasttext=0.9.2=py38h1fd1430_3
   - ffmpeg=4.3=hf484d3e_0
   - filelock=3.6.0=pyhd3eb1b0_0
   - flake8=3.9.2=pyhd3eb1b0_0
@@ -177,7 +179,7 @@ dependencies:
   - lame=3.100=h7b6447c_0
   - lazy-object-proxy=1.6.0=py38h27cfd23_0
   - lcms2=2.12=h3be6417_0
-  - ld_impl_linux-64=2.35.1=h7274673_9
+  # - ld_impl_linux-64=2.35.1=h7274673_9
   - lerc=3.0=h295c915_0
   - libaec=1.0.4=he6710b0_1
   - libarchive=3.4.2=h62408e4_0
@@ -449,7 +451,6 @@ dependencies:
       - distlib==0.3.4
       - elastic-transport==8.1.2
       - elasticsearch==8.2.3
-      - fasttext==0.9.2
       - google-auth-oauthlib==0.4.6
       - huggingface-hub==0.7.0
       - jellyfish==0.9.0
@@ -458,8 +459,8 @@ dependencies:
       - pandarallel==1.6.3
       - platformdirs==2.5.2
       - py-entitymatching==0.4.0
-      - py-stringmatching==0.4.2
-      - py-stringsimjoin==0.3.2
+      - py-stringmatching==0.4.6
+      - py-stringsimjoin==0.3.6
       - pybind11==2.10.0
       - pyprind==2.11.3
       - python-levenshtein==0.12.2
